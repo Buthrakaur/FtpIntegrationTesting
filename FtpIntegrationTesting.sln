@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FtpIntegrationTesting", "FtpIntegrationTesting\FtpIntegrationTesting.csproj", "{81774F26-A92F-4726-95A2-12ECD480CAE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FtpIntegrationTesting.SampleTests", "FtpIntegrationTesting.SampleTests\FtpIntegrationTesting.SampleTests.csproj", "{2731A823-BE3A-41EE-97A4-A3E8DEE3852D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81774F26-A92F-4726-95A2-12ECD480CAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81774F26-A92F-4726-95A2-12ECD480CAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81774F26-A92F-4726-95A2-12ECD480CAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81774F26-A92F-4726-95A2-12ECD480CAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2731A823-BE3A-41EE-97A4-A3E8DEE3852D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2731A823-BE3A-41EE-97A4-A3E8DEE3852D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2731A823-BE3A-41EE-97A4-A3E8DEE3852D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2731A823-BE3A-41EE-97A4-A3E8DEE3852D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
