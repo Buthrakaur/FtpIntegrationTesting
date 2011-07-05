@@ -28,7 +28,7 @@ namespace FtpIntegrationTesting
 			if (!ftpProcess.HasExited)
 			{
 				ftpProcess.Kill();
-				while(!ftpProcess.HasExited) Thread.Sleep(10);
+				ftpProcess.WaitForExit();
 			}
 		}
 	}
