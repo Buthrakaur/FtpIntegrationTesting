@@ -16,7 +16,6 @@ namespace FtpIntegrationTesting.SampleTests
 		public Test()
 		{
 			server = new FtpIntegrationServer(dir.FullName, 2121);
-			CreateSomeFiles(3);
 		}
 
 		public void Dispose()
@@ -62,8 +61,11 @@ namespace FtpIntegrationTesting.SampleTests
 		[Fact]
 		public void CanListFiles()
 		{
+			CreateSomeFiles(3);
+
 			var rq = BuildRequest(WebRequestMethods.Ftp.ListDirectory);
 			var res = GetResponseString(rq);
+
 			Assert.Equal(String.Format("file.1{0}file.2{0}file.3{0}", Environment.NewLine), res);
 		}
 	}
